@@ -1,0 +1,293 @@
+/* ======= RESET ======= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #000000;
+}
+
+/* ======= HEADER ======= */
+.header {
+    width: 100%;
+    height: 70px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.menu a:hover {
+    color: #CCCCCC;
+}
+
+.actions .login-btn {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 28px;
+    color: #fff;
+    padding: 8px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.actions .login-btn:hover {
+    background: #fff;
+    color: #1F1F1F;
+}
+
+/* ======= BANNER ======= */
+
+.banner {
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    font-size: large;
+}
+
+/* ======= NOTÍCIA EM DESTAQUE ======= */
+
+.news-highlight {
+    display: flex;
+    gap: 20px;
+    width: 85%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #F7F7F7;
+    border-radius: 12px;
+}
+
+.highlight-image img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.highlight-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlight-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.highlight-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+.highlight-info span {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #777;
+}
+
+/* ======= SEÇÃO DENÚNCIA ======= */
+
+.denuncia-box {
+    background: #1F1F1F;
+    width: 85%;
+    margin: 50px auto;
+    padding: 35px 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    position: relative;
+}
+
+.megafone {
+    width: 65px;
+    position: absolute;
+    top: -30px;
+    left: 15px;
+}
+
+.denuncia-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.denuncia-box p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-denunciar {
+    background: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-denunciar:hover {
+    background: #D30000;
+}
+
+/* ======= GRID DE NOTÍCIAS ======= */
+
+.news-grid {
+    width: 85%;
+    margin: 0 auto 60px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.news-card {
+    background: #fff;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.news-card:hover {
+    transform: translateY(-4px);
+}
+
+.news-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.news-card h4 {
+    font-size: 15px;
+    padding: 8px 10px 4px 10px;
+}
+
+.news-card span {
+    font-size: 12px;
+    color: #777;
+    padding: 0 10px;
+}
+
+/* ======= RESPONSIVO ======= */
+
+@media (max-width: 850px) {
+    .news-highlight {
+        flex-direction: column;
+    }
+
+    .highlight-image img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .news-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+
+    .highlight-info h3 {
+        font-size: 16px;
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* AJUSTES FINOS DO LAYOUT */
+
+.banner {
+    background: #E6E6E6;
+}
+
+.banner-img {
+    display: block;
+}
+
+/* remover texto do banner */
+.banner h2 {
+    display: none;
+}
+
+.news-highlight {
+    margin-top: 20px;
+    background: #ECECEC;
+}
+
+/* título da notícia destaque */
+.highlight-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+/* texto da notícia destaque */
+.highlight-info p {
+    font-size: 14px;
+    color: #444;
+}
+
+/* DENÚNCIA BOX */
+.denuncia-box {
+    background: #000;
+    border-radius: 18px;
+    width: 90%;
+    padding: 40px 25px;
+}
+
+.btn-denunciar {
+    margin-top: 10px;
+}
+
+/* NOTÍCIAS EM GRID */
+.news-card h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.news-card span {
+    font-size: 11px;
+}
