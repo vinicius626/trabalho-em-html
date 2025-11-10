@@ -1,0 +1,16 @@
+-HTML-
+<footer>
+    <p>© 2025 - Seu Portal de Notícias. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+
+-CSS-
+footer {
+  background-color: #1c2d4a;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
