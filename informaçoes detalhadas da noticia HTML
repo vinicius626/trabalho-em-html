@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="4f033426-0f47-45b4-8123-090945204caa.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Título da Notícia</h1>
+        <p class="subtitulo">Subtítulo ou chamada breve da notícia.</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">Data da publicação</p>
+
+        <div class="imagem">
+          <img src="https://via.placeholder.com/800x400" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>Texto da notícia vai aqui. Você pode substituir este texto por qualquer matéria.</p>
+          <p>Adicione parágrafos, imagens e outros elementos conforme desejar.</p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+          <h3>Últimas Notícias</h3>
+          <ul>
+            <li><a href="#">Notícia exemplo 1</a></li>
+            <li><a href="#">Notícia exemplo 2</a></li>
+            <li><a href="#">Notícia exemplo 3</a></li>
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <p>© 2025 - Seu Portal de Notícias. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
