@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Esqueci a Senha</title>
+</head>
+<body>
+  <main class="conteiner">
+    <form>
+      <h2>Recuperar Senha</h2>
+
+      <div class="input-box">
+        <i class="bx bxs-user"></i>
+        <input placeholder="E-mail" type="email">
+      </div>
+
+      <div>
+      </div>
+
+      <button type="submit" class="Enviar">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>
