@@ -1,0 +1,178 @@
+/* ====== HEADER ====== */
+.header {
+    width: 95%;
+    height: 70px;
+    background: #1c2d4a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+
+    /* evita que o header cubra tudo */
+    padding-top: 80px;
+}
+
+/* ====== BANNER SUPERIOR ====== */
+.top-banner {
+  background-color: #1c2d4a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 0;
+}
+
+.banner-content h2 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.banner-content p {
+  margin: 5px 0 0;
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+/* ====== CONTEÚDO PRINCIPAL ====== */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ====== NOTÍCIAS ====== */
+.noticias {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  flex: 2;
+}
+
+.tag {
+  background-color: #d71920;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 1.9em;
+  margin: 10px 0;
+}
+
+.subtitulo {
+  font-style: italic;
+  color: #555;
+}
+
+.autor, .data {
+  color: #666;
+  margin-top: 5px;
+  font-size: 0.95em;
+}
+
+.imagem {
+  margin: 20px 0;
+}
+
+.imagem img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.credito {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 5px;
+}
+
+.texto p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* ====== SIDEBAR ====== */
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sidebar .bloco {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  color: #002b5c;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.sidebar li {
+  margin: 8px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #ff0000;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.anuncio {
+  background: #e8e8e8;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ====== RODAPÉ ====== */
+footer {
+  background-color: #1c2d4a;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
