@@ -1,0 +1,60 @@
+footer {
+  background-color: #002b5c;
+  color: #fff;
+  text-align: flex;
+  padding: 50px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+.footer-area {
+    background: #002b5c;
+    color: #fff;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.menus-footer {
+    padding: 40px 25px;
+    max-width: 400px;
+}
+
+.menus-footer h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 3px solid #cfcfcf;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.menus-footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menus-footer li {
+    border-bottom: 1px solid #aaa;
+    padding: 12px 0;
+}
+
+.menus-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.menus-footer a:hover {
+    text-decoration: underline;
+}
+
+/* BARRA FINAL VERMELHA */
+.copyright {
+    background: #d71920;
+    padding: 12px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+}
