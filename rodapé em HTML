@@ -1,0 +1,19 @@
+ <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
