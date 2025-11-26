@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="4f033426-0f47-45b4-8123-090945204caa.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Escolas municipais de Recife denunciam descaso e falhas estruturais</h1>
+        <p class="subtitulo">Pais e professores relatam falta de manutenção, materiais e estrutura — unidades chegam a ficar sem condições mínimas de uso.</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://www.leiaja.com/wp-content/uploads/2025/02/ESCOLA-HERBERT-DE-SOUZA-Fotos-Filipe-BezerraSimpere_4958-1152x1536.jpg" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>Escolas da rede municipal do Recife denunciaram uma série de problemas estruturais que vêm dificultando o início do ano letivo e comprometendo as condições de trabalho e de aprendizagem. Segundo relatos de professores, pais e funcionários, diversas unidades apresentam infiltrações, salas sem climatização, armários enferrujados, telhados danificados e riscos na rede elétrica. Em algumas escolas, a sensação é de abandono, com falta de manutenção e estruturas deterioradas.
+
+Além das falhas físicas, a comunidade escolar também alertou para problemas na entrega de materiais básicos. Kits escolares chegaram incompletos e, em alguns casos, ainda não haviam sido distribuídos. A falta de materiais de limpeza e de fardamento também foi motivo de reclamações, somando-se à insatisfação geral com a preparação das escolas para receber os alunos.
+
+Diante das denúncias, a gestão municipal afirmou que o cronograma de manutenção está em andamento e que os kits continuarão sendo entregues ao longo do mês. A Secretaria de Educação também informou que está realizando reparos em aparelhos de ar-condicionado e que as unidades serão ajustadas conforme as demandas apresentadas.
+
+Mesmo assim, professores e funcionários afirmam que as ações têm sido insuficientes e não acompanham a gravidade dos problemas. Para eles, muitas escolas permanecem sem condições adequadas de funcionamento, o que reforça a cobrança por intervenções mais rápidas e estruturais.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+          <h3>Últimas Notícias</h3>
+          <ul>
+            <li><a href="#">Notícia exemplo 1</a></li>
+            <li><a href="#">Notícia exemplo 2</a></li>
+            <li><a href="#">Notícia exemplo 3</a></li>
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
+
