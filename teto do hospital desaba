@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="4f033426-0f47-45b4-8123-090945204caa.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Forro desaba em UTI do Barão de lucena e simepe exige providencias</h1>
+        <p class="subtitulo">Placa de gesso caiu sobre incubadora com bebê; ninguém ficou ferido, e Simepe pressiona por medidas imediatas.</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://www.gncnews.com.br/assets/uploads/c7a9e82fba2e7be0ce1bb3d6b20a753e.png" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>O Sindicato dos Médicos de Pernambuco (Simepe) cobrou da Secretaria Estadual de Saúde (SES-PE) providências imediatas após o desabamento de parte do forro da UTI 2 do Hospital Barão de Lucena, ocorrido na segunda-feira, 27 de outubro de 2025. A placa de gesso caiu sobre uma incubadora onde havia um bebê, mas ninguém ficou ferido. Todos os pacientes foram transferidos para outros setores como medida de segurança. O Simepe considerou o episódio extremamente grave e afirmou que a unidade não havia passado por nenhuma reforma ou requalificação recente, mesmo sendo um setor crítico do hospital. O sindicato exigiu uma vistoria completa, manutenção emergencial e garantias de que profissionais e pacientes terão condições seguras de atendimento.
+
+Em resposta, a SES-PE informou que o forro da UTI 2 será totalmente reconstruído e que o espaço só será reaberto após a conclusão dos trabalhos técnicos e a emissão de um laudo que comprove que o local está seguro. O Simepe declarou que acompanhará todo o processo até a liberação do setor. O Hospital Barão de Lucena já vinha enfrentando problemas estruturais há anos, incluindo superlotação, falta de insumos e condições precárias de trabalho, situações que chegaram a resultar em uma interdição ética parcial em 2024. O desabamento do forro reforça as críticas sobre a deterioração da estrutura da unidade e reacende as cobranças por melhorias urgentes no atendimento e na segurança de pacientes e profissionais.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+          <h3>Últimas Notícias</h3>
+          <ul>
+            <li><a href="#">Notícia exemplo 1</a></li>
+            <li><a href="#">Notícia exemplo 2</a></li>
+            <li><a href="#">Notícia exemplo 3</a></li>
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
