@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="microfone.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Forro desaba na UTI do Barão de Lucena e gera nova onda de críticas à estrutura hospitalar</h1>
+        <p class="subtitulo">Sindicato exige vistoria e manutenção urgente após queda de parte do teto sobre incubadora na UTI-2, mesmo sem feridos.</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://gncnews.com.br/img/crop?img=c7a9e82fba2e7be0ce1bb3d6b20a753e.png&w=800&h=400&fit=crop&fm=jpq&q=90" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>Na manhã de segunda-feira, 27 de outubro de 2025, parte do forro do teto da UTI 2 do Hospital Barão de Lucena cedeu, com uma placa de gesso caindo sobre uma incubadora onde havia um bebê. Apesar do susto, felizmente não houve feridos; todos os pacientes foram imediatamente realocados para outros setores da unidade médica. A ocorrência foi interpretada como uma grave falha estrutural que expõe o risco renovado à segurança de pacientes e profissionais.
+
+O sindicato representativo dos médicos acionou a Secretaria Estadual de Saúde (SES-PE), exigindo explicações e a adoção de medidas emergenciais para vistoria e reparos. Conforme comunicado oficial, o forro será totalmente substituído e a reabertura da UTI só ocorrerá após conclusão dos trabalhos técnicos e emissão de laudo que comprove condições seguras de uso.
+
+Historicamente referência em saúde materno-infantil e pediátrica, o Barão de Lucena já havia passado por requalificação recente — mas, segundo o sindicato, a UTI 2 não foi incluída nas obras. A repetição de incidentes estruturais reacende os alertas sobre negligência na manutenção da rede hospitalar, reforçando a urgência de intervenções profundas e contínuas para garantir atendimento digno e seguro.
+
+Até o momento, o sindicato afirma que acompanhará de perto todo o processo de reparo e liberação da unidade, cobrando transparência e segurança real para quem depende do hospital.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+         
+          <ul>
+            
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
+
