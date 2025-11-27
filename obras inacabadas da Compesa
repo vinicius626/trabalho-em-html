@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="microfone.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Buracos e obras inacabadas da Compesa causam transtornos nas ruas do Grande Recife</h1>
+        <p class="subtitulo">Moradores denunciam vias danificadas, intervenções paradas e falta de saneamento adequado, problemas que seguem trazendo riscos e dificuldades à população.</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://s2-g1.glbimg.com/986--AP3e4ILAv6Pm1wdYqCJirc=/0x0:1920x1080/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/m/j/zAK6WEQJAkQZWp1iQi3w/frame-00-01-23.316.jpg" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>Moradores da Região Metropolitana do Recife denunciam graves problemas que teriam sido deixados pela Compesa após obras de saneamento. Ruas e avenidas seguem com buracos abertos e reparos inacabados, buracos estes que atrapalham o trânsito, causam risco a pedestres e motoristas, além de provocar transtornos diários à população. Há relatos de acidentes devido às crateras deixadas no pavimento e de transtornos causados pela estrutura precária, como poeira, irregularidades no solo e dificuldade de locomoção.
+
+As reclamações se espalham por diversos bairros, onde moradores afirmam que há muito tempo esperam a conclusão e a finalização das intervenções — sem sucesso. A expectativa inicial de melhoria com os serviços de saneamento deu lugar ao sentimento de abandono: para muitos, as obras parecem ter sido interrompidas de forma definitiva, deixando o cenário pior do que antes. A Compesa, por sua vez, afirma que está tomando providências para retomar e concluir os reparos necessários. Mesmo assim, a comunidade segue em alerta, reivindicando respostas concretas para garantir segurança e normalidade nas vias afetadas.
+
+O legado das obras mal acabadas expõe um problema estrutural de negligência com infraestrutura urbana — e acende um alerta sobre a qualidade da prestação de serviços essenciais para as cidades da região. A cobrança é por obras bem-feitas, contínuas e pela responsabilização de quem executa as intervenções, para que ruas e bairros voltem a ser espaços seguros e dignos para quem vive e circula ali.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+          <h3>Últimas Notícias</h3>
+          <ul>
+            <li><a href="#">Notícia exemplo 1</a></li>
+            <li><a href="#">Notícia exemplo 2</a></li>
+            <li><a href="#">Notícia exemplo 3</a></li>
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
+
