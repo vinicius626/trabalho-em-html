@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="microfone.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Prédios-caixão: construções proibidas que ainda representam risco em Pernambuco</h1>
+        <p class="subtitulo">Mesmo 20 anos após a proibição, estruturas frágeis continuam ameaçando moradores na Região Metropolitana do Recife.</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://s2-g1.glbimg.com/syd3mWaHp4OSGpH_rpdGgtRzlwk=/0x0:1200x525/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/h/e/yu3g5uTu66M26NRenfgw/robertostuckertfilho1.webp" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>Os prédios-caixão começaram a ser erguidos em massa a partir da década de 1970 em Pernambuco e se popularizaram como uma solução rápida e barata para atender ao crescimento urbano. Utilizando o método de alvenaria resistente — um tipo de construção que dispensa pilares e vigas de concreto — essas edificações dependiam exclusivamente das paredes para suportar todo o peso do prédio. Com o tempo, esse modelo se revelou frágil e incapaz de garantir a segurança necessária para construções de vários pavimentos.
+
+Ao longo das décadas, os problemas se tornaram mais evidentes. Rachaduras profundas, paredes desalinhadas, infiltrações constantes e pisos cedendo passaram a fazer parte da rotina de quem morava nesses imóveis. Em muitos casos, a deterioração avançou a ponto de provocar desabamentos, alguns deles com vítimas fatais. Tragédias desse tipo se repetiram em diferentes bairros, deixando um rastro de dor e de famílias desabrigadas.
+
+Embora a construção de novos prédios-caixão tenha sido proibida em 2005, o problema nunca foi de fato resolvido. Milhares dessas estruturas continuam de pé, muitas delas em bairros densamente povoados. Parte dos prédios ainda está habitada, geralmente por famílias que não têm outra opção de moradia. Outras edificações estão interditadas ou abandonadas, contribuindo para a sensação de insegurança e abandono em várias comunidades da Região Metropolitana do Recife.
+
+Nos últimos anos, a pressão aumentou para que o poder público tomasse medidas definitivas. Por isso, foi firmado um grande acordo entre governo estadual, órgãos federais e a Caixa Econômica para indenizar moradores afetados, oferecer novas moradias e organizar um plano de demolição das estruturas comprometidas. A expectativa é retirar famílias de áreas de risco, evitar novos desabamentos e transformar os terrenos em espaços de utilidade pública.
+
+Apesar dos avanços recentes, a solução ainda exige tempo e acompanhamento. Os prédios-caixão representam não apenas um problema estrutural, mas também social, atingindo sobretudo famílias de baixa renda que convivem diariamente com medo, incerteza e limitações. Resolver esse passivo histórico é um desafio que o estado tenta enfrentar após décadas de alerta, acidentes e pedidos de socorro.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+         
+          <ul>
+            
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
+
