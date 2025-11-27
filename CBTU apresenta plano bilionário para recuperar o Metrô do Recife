@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="microfone.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">CBTU apresenta plano bilionário para recuperar o Metrô do Recife</h1>
+        <p class="subtitulo">Projeto prevê substituição de trilhos, modernização da via, atualização elétrica e melhorias nas estações após sucessivos problemas de infraestrutura</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://tvnova.tv.br/jornalfatonovo/wp-content/webp-express/webp-images/uploads/2024/06/whatsapp-image-2022-05-05-at-142936-1024x683.jpeg.webp" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>A Companhia Brasileira de Trens Urbanos (CBTU) encaminhou ao Governo Federal um plano de recuperação do Metrô do Recife, com investimento estimado em R$ 1,7 bilhão. A proposta busca superar os recentes transtornos causados por falhas na infraestrutura, que prejudicaram mais de 180 mil passageiros. O plano inclui a substituição de trilhos e dormentes, restauração da via férrea, modernização das subestações elétricas e melhorias nas coberturas das estações — ações fundamentais para garantir segurança e regularidade ao transporte metroviário.
+
+Segundo a proposta, essas intervenções estruturais devem atacar os problemas crônicos que vinham comprometendo a operação do sistema, como falhas elétricas, paralisações e riscos à segurança dos usuários. A iniciativa representa um passo concreto para atender às reclamações de passageiros e trabalhadores do metrô, que vêm denunciando o sucateamento da rede e a falta de manutenção adequada.
+
+No entanto, a efetivação do plano depende da aprovação dos recursos e da execução dos serviços previstos — o que gera expectativa entre os usuários por melhorias reais e duradouras. Para muitos, o plano da CBTU é a chance de transformar o Metrô do Recife em um sistema confiável, seguro e digno para a mobilidade da população da Região Metropolitana.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+         
+          <ul>
+            
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
+
