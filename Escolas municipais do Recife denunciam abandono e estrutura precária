@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="microfone.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Escolas municipais do Recife denunciam abandono e estrutura precária</h1>
+        <p class="subtitulo">Professores, pais e funcionários relatam infiltrações, salas sem climatização, falta de manutenção e materiais insuficientes, reforçando a sensação de descaso na rede municipal.</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://www.leiaja.com/wp-content/uploads/2025/02/ESCOLA-HERBERT-DE-SOUZA-Fotos-Filipe-BezerraSimpere_4958-1152x1536.jpg" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>Cresce a insatisfação de professores, pais e funcionários diante das condições precárias observadas em várias unidades de ensino da rede municipal do Recife. Segundo relatos, muitas escolas apresentam infiltrações, telhados danificados, armários enferrujados, salas sem ventilação adequada e risco elétrico — problemas que comprometem seriamente a segurança e o conforto de quem frequenta os prédios.
+
+Além disso, a escassez de materiais básicos para o início do ano letivo é motivo de críticas: kits escolares chegam incompletos ou não chegam, falta fardamento para os alunos e há ausência de produtos de limpeza essenciais. Em algumas unidades, o ar-condicionado está quebrado, o que agrava o desconforto em salas de aula lotadas e quentes.
+
+A gestão municipal afirma que está distribuindo os kits e que o fornecimento de materiais de limpeza é contínuo. Também comunica que as manutenções nos aparelhos de climatização estão em curso. Mesmo com essas promessas, a comunidade escolar considera as ações insuficientes e cobra intervenções urgentes, afirmando que muitas escolas continuam funcionando em condições inadequadas e que o cenário atual representa risco real para alunos, professores e funcionários.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+          <h3>Últimas Notícias</h3>
+          <ul>
+            <li><a href="#">Notícia exemplo 1</a></li>
+            <li><a href="#">Notícia exemplo 2</a></li>
+            <li><a href="#">Notícia exemplo 3</a></li>
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
+
