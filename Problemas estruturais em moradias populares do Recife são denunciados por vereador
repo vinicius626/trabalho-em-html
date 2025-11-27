@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Notícias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER NOVO -->
+    <header class="header">
+        <div class="logo">
+            <img src="microfone.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+   
+
+    <!-- Conteúdo principal -->
+    <main class="main-container">
+      <section class="noticias">
+        <div class="tag">NOTÍCIAS</div>
+        <h1 class="titulo">Problemas estruturais em moradias populares do Recife são denunciados por vereador</h1>
+        <p class="subtitulo">Eduardo Moura alerta que conjuntos habitacionais apresentam falhas graves e moradores têm sido obrigados a deixar suas casas</p>
+        <p class="autor">Por: <strong>Nome do autor</strong></p>
+        <p class="data">26/11/2025</p>
+
+        <div class="imagem">
+          <img src="https://www.recife.pe.leg.br/comunicacao/noticias/2025/08/eduardo-moura-aponta-problemas-estruturais-em-habitacionais-do-recife/@@images/d78c7106-5c7c-49e7-ac88-c739e4e26be0.jpeg" alt="Imagem da notícia">
+          <p class="credito">Foto: Crédito da imagem</p>
+        </div>
+
+        <div class="texto">
+          <p>O vereador Eduardo Moura veio à tribuna da Câmara Municipal do Recife no dia 26 de agosto de 2025 para denunciar problemas estruturais e falta de manutenção em diversos empreendimentos habitacionais da capital. Ele informou que moradores, mesmo com direito à casa própria, têm sido obrigados a deixar seus imóveis em bairros como São José, Arruda, Água Fria, Cordeiro, Torre e Brasília Teimosa, devido às deficiências constatadas. Segundo o parlamentar, apesar da promessa de novos investimentos na construção de moradias populares — com anúncio de R$ 46,5 milhões —, a qualidade dessas obras está longe do esperado e demonstra “obra pífia”, com falhas que comprometem a segurança e a dignidade dos moradores.
+
+Entre as queixas relatadas estão infiltrações, rachaduras, mofo, ferragens expostas, infestação de cupins e até risco de desabamento em prédios recentes. Em algumas unidades entregues por programas habitacionais da Prefeitura, moradores relatam problemas graves apenas meses após a ocupação. A denúncia reacende a crítica histórica de que, em muitos casos, a entrega de moradias populares no Recife tem ocorrido mais como promessa eleitoral do que como garantia de moradia digna. Segundo Eduardo Moura, é urgente que a Prefeitura e órgãos responsáveis realizem fiscalização rigorosa, revisem os contratos de construção e façam os reparos e manutenções necessárias para assegurar o direito à moradia segura.
+
+Até o momento, não há confirmação pública de cronograma de consertos ou estimativa para correção dos problemas denunciados. A situação mobiliza moradores, conselhos de habitação e o poder legislativo da cidade — e reabre o debate sobre déficit habitacional, qualidade da construção e responsabilidade pública na entrega de moradias populares.</p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="bloco">
+         
+          <ul>
+            
+          </ul>
+        </div>
+
+        <div class="bloco">
+          <h3>Entre em contato</h3>
+          <p>📞 (81) 3000-0000</p>
+          <p>📧 contato@portal.com</p>
+        </div>
+
+        <div class="bloco anuncio">
+          <p>Espaço para anúncios</p>
+        </div>
+      </aside>
+    </main>
+     <!-- FOOTER --> <!-- Rodape🤐 -->
+    <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
+      
+
