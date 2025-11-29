@@ -1,0 +1,71 @@
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre a CBN Recife</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+  <header class="header">
+        <div class="logo">
+            <img src="microfone.jpg" alt="Report Recife">
+        </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+
+<h1 class="titulo-principal">Política de Privacidade</h1>
+<h2></h2>
+
+<div class="barra"></div>
+
+
+<div class="container">
+<h2>Transparência no uso das suas informações</h2>
+<p>O Report Recife valoriza a privacidade e a segurança dos usuários e informa que a coleta de dados ocorre quando o usuário acessa o site utiliza formulários participa de promoções envia denúncias ou interage com qualquer funcionalidade da plataforma sendo coletadas informações como nome email telefone endereço dados de navegação e informações técnicas como IP tipo de navegador páginas acessadas e tempo de permanência além de dados fornecidos voluntariamente pelo próprio usuário ao se cadastrar ou interagir com os serviços oferecidos o Report Recife utiliza cookies e tecnologias semelhantes para melhorar a experiência registrar preferências acelerar preenchimentos medir audiência personalizar conteúdos e permitir ações de parceiros sendo possível desativar os cookies no navegador porém isso pode limitar alguns recursos os dados coletados são usados para personalizar serviços enviar informações operar promoções oferecer conteúdos relevantes gerar estatísticas proteger a segurança da plataforma e cumprir obrigações legais podendo ser compartilhados com parceiros apenas quando necessário ao funcionamento de serviços como operações comerciais serviços de pagamento promoções ou solicitações legais nunca sendo vendidos ou divulgados sem finalidade clara informações sensíveis como dados financeiros são protegidas por criptografia e utilizadas apenas para completar operações sendo proibido o uso de nomes de usuário que imitem marcas pessoas públicas conteúdos ofensivos ou qualquer identificação ilegal podendo resultar no cancelamento da conta parceiros comerciais anunciantes serviços externos e patrocinadores possuem políticas de privacidade próprias e ao acessar serviços de terceiros o usuário está sujeito às regras desses parceiros o usuário pode escolher receber ou não mensagens promocionais podendo alterar essa escolha a qualquer momento lembrando que em promoções específicas o envio de mensagens pode ser obrigatório as informações são protegidas por medidas de segurança porém nenhuma tecnologia é totalmente imune e recomenda-se que o usuário mantenha sua senha em sigilo utilize senhas fortes e evite compartilhar dados pessoais em áreas públicas o Report Recife não solicita senhas por email ou telefone e não se responsabiliza por informações divulgadas voluntariamente pelos usuários em áreas públicas a política pode ser atualizada a qualquer momento sendo responsabilidade do usuário verificar a versão mais recente e ao continuar utilizando o site o usuário concorda com os termos atualizados o usuário pode solicitar acesso correção atualização ou exclusão de seus dados bem como esclarecimentos sobre privacidade pelos canais de atendimento do Report Recife</p>
+
+
+<p></p>
+
+
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+</div>
+
+
+</body>
+</html>
+ <footer class="footer-area">
+      <div class="menus-footer">
+        <h3>MENUS</h3>
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Programação</a></li>
+            <li><a href="#">Anuncie Conosco</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Serviços - Whatsapp</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Princípios Editoriais</a></li>
+        </ul>
+      </div>
+
+      <div class=""copyright>
+        <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+      </div>
+    </footer>>
