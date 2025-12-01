@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Recife</title>
+    <link rel="shortcut icon" href="/img/4f033426-0f47-45b4-8123-090945204caa.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <img src="/img/4f033426-0f47-45b4-8123-090945204caa.jpg" alt="Report Recife">
+        </div>
+
+     <div class="theme-toggle">
+    <span id="theme-icon">🌙</span>
+      </div>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Denúncia</a>
+            <a href="#">Soluções</a>
+            <a href="#">Sobre</a>
+        </nav>
+
+     
+
+
+      <form class="search-bar">
+        <input id="searchInput" type="text" placeholder="pesquisar..."background-color="#e73c3c;">
+        <button type="submit"><img src="https://cdn.openart.ai/uploads/image_TVvb4P3p_1764612356353_raw.jpg" width="20"   alt="external-magnifying-contact-us-outline-outline-juicy-fish"/></button>
+        
+    
+        </form>
+
+        <div class="actions">
+    <a href="login.html" class="login-btn">Entrar</a>
+</div>
+
+    </header>
+
+     <div class="slider">
+        <div class="slides">
+            <img src="https://cdn.openart.ai/uploads/image_cJ2O3Oc__1764612359704_raw.jpg" alt="Banner 1">
+            
+        </div>
+     </div>
+
+    <!-- Noticia em destaque  -->
+    <section class="news-highlight reveal">
+     <div class="highlight-image">
+      <img src="/img/explosao.avif" alt="Notícia Destaque">
+       </div>
+
+    <div class="highlight-info">
+                    <h3>Vídeo mostra barulho de explosão que deixou dois mortos e destruiu oito casas em Olinda</h3>
+            <p>Uma câmera de segurança de um imóvel no bairro de Ouro Preto, em Olinda...</p>
+            <span>Há 8 horas · Em Pernambuco</span>
+        </div>
+    </section>
+
+    <!-- Denúncia -->
+    <section class="denuncia-box">
+      
+        <img src="/img/image0.png" class="megafone" alt="Denuncie">
+        <h2>FAÇA SUA DENÚNCIA A VOCÊ TAMBÉM!</h2>
+        <p>Sua voz tem poder e ela pode transformar Recife!
+ Se você presenciou ou foi vítima de alguma irregularidade, não se cale. Faça sua denúncia com segurança e total sigilo através do REPORT RECIFE clicando no botão abaixo! Aqui, sua identidade é protegida, e sua informação pode ser o primeiro passo para um Recife mais justo, transparente e seguro para todos. 
+Juntos, podemos construir uma cidade onde a verdade prevalece e a cidadania é respeitada.</p>
+        <button class="btn-denunciar">CLIQUE AQUI</button>
+      
+    </section>
+
+    <!-- New Card -->    
+    <section class="news-grid">
+
+        <div class="news-card">
+        <a href="/html/forro.html">
+            <img src="/img/teto-2-.avif" alt="Notícia">
+            <h4>O teto de gesso de uma das UTIs neonatais do Hospital Maternidade Barão de Lucena, no bairro da Iputinga, na Zona Oeste do Recife, caiu na manhã desta segunda-feira (27). Imagens encaminhadas à TV Globo mostram os destroços do forro em meio às incubadoras e uma placa de gesso sobre uma delas, onde havia um bebê dentro (veja vídeo acima).</h4>
+            <span>Há 6 horas · Em Pernambuco</span>
+        </a>
+        </div>
+
+        <div class="news-card">
+          <a href="/html/compesa.html"> 
+          <img src="/img/frame-00-01-23.316.webp" alt="Notícia">
+            <h4>A rotina dos moradores do Grande Recife é marcada pelas obras da Companhia Pernambucana de Saneamento (Compesa). Os buracos em diversas ruas e avenidas praticamente viraram parte do legado da empresa, que muitas vezes não finaliza os serviços e, assim, cria mais um problema para a população</h4>
+            <span>Há 1 dia · Em Pernambuco</span>
+          </a>
+        </div>
+
+        <div class="news-card">
+          <a href="/html/predio.html">  
+          <img src="/img/Predio Caixão.avif" alt="Notícia">
+            <h4>A administradora Rosângela Costa, 60 anos, estava passando por dificuldades financeiras e na família quando soube por uma amiga de uma oportunidade única para ter uma casa própria. Sem precisar dar entrada ou parcelas intercaladas, comprou um apartamento no Conjunto Beira-Mar, localizado em Paulista, na Região Metropolitana do Recife.</h4>
+            <span>Há 4 horas · Em Pernambuco</span>
+          </a>
+        </div>
+
+         <div class="news-card">
+          <a href="/html/moradia.html">
+            <img src="/img/eduardo moura.jpeg" alt="Notícia">
+            <h4>Durante a reunião plenária da Câmara do Recife desta terça-feira (26), o vereador Eduardo Moura (Novo) apontou problemas estruturais e falta de manutenção em diversos habitacionais da cidade. "O prefeito do Recife anunciou mais um habitacional a ser construído. Foi anunciado um investimento de R$ 46,5 milhões, mas eu subo para discutir a qualidade deste investimento, pois eu tenho uma lista com os últimos habitacionais e os problemas que eles vêm apresentando”, disse. O vereador argumentou que pessoas que tiveram o direito à casa própria foram obrigadas a deixar os imóveis por conta da falta de manutenção deles. Ele falou dos conjuntos habitacionais do bairro de São José, no Centro; do Arruda e de Água Fria, Zona Norte; do Cordeiro e da Torre, Zona Oeste; e de Brasília Teimosa, Zona Sul.</h4> 
+            <span>Há 4 horas · Em Pernambuco</span>
+          </a>
+        </div>
+
+        
+     
+        <div class="news-card">
+          <a href="/html/metro.html">
+          <img src="/img/metro.webp" alt="Notícia">
+            <h4>A Companhia Brasileira de Trens Urbanos (CBTU) apresentou ao Governo Federal um projeto que visa resolver os problemas estruturais do Metrô do Recife. O investimento está orçado em 1,7 bilhões de reais e a medida foi tomada devido aos recentes transtornos na infraestrutura do sistema, que afetaram mais de 180 mil passageiros. </h4> 
+            <span>Há 4 horas · Em Pernambuco</span>
+          </a>
+        </div>
+
+        <div class="news-card">
+          <a href="/html/escola.html"> 
+          <img src="/img/ESCOLA-HERBERT-DE-SOUZA-Fotos-Filipe-BezerraSimpere_4958-768x1024.jpg" alt="Notícia">
+            <h4>A Escola Municipal de Casa Amarela, na Zona Norte do Recife, denunciou ao Sindicato Municipal dos Profissionais de Ensino da Rede Oficial do Recife (SIMPERE) um problema relacionado com o funcionamento dos aparelhos de ar-condicionado. De acordo com depoimentos de professores e alunos, as aulas acontecem sob condições de calor extremo.
+            “Recife é uma cidade vulnerável às mudanças climáticas, e a precariedade estrutural das escolas agrava ainda mais essa situação. Quando chove, as unidades alagam; quando faz calor, a falta de manutenção dos equipamentos coloca em risco a saúde de alunos e professores. Isso não pode continuar sendo ignorado”, ressalta Anna Davi, coordenadora geral do SIMPERE.</h4> 
+            <span>Há 4 horas · Em Pernambuco</span>
+          </a>
+        </div>
+
+       </section> 
+
+    <!-- RODAPÉ -->
+    <footer>
+  <div class="footer-area">
+    <div class="menus-footer">
+      <h3>MENUS</h3>
+      <ul>
+        <li><a href="#">Quem Somos</a></li>
+        <li><a href="#">Equipe</a></li>
+        <li><a href="#">Programação</a></li>
+        <li><a href="#">Anuncie Conosco</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Serviços - Whatsapp</a></li>
+        <li><a href="#">Política de Privacidade</a></li>
+        <li><a href="#">Princípios Editoriais</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>© 2025 Portal de Notícias. Todos os direitos reservados.</p>
+  </div>
+</footer>
