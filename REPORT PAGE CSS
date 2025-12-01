@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/fundo/Site\ Empresarial\ Aplicativo\ de\ Tecnologia\ Ousado\ Roxo\ e\ Azul-escuro.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.conteiner {
+    color: #fff;
+    width: 420px;
+    height: 480px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    backdrop-filter: blur 150px;
+}
+
+.conteiner h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.relato {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.relato input{
+    width: 100%;
+    height:100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.relato input ::placeholder {
+ color:#c5c5c5
+
+}
+
+.relato i {
+    position: absolute;
+    right: 20px; 
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%; 
+}
+
+.anexo input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+
+.anexo {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 35px 0;
+}
+
+.file-label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px dashed rgba(255, 255, 255, .2);
+    padding: 14px 45px 14px 20px;
+    font-size: 16px;
+    color: #afafaf;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.anexo i {
+    position: absolute;
+    right: 15px; 
+    top: 50%;      
+    transform: translateY(-50%); 
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+}
+
+
+.nome {
+    color:#fff;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.nome input{
+    width: 100%;
+    height:100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.nome input ::placeholder {
+ color:#c5c5c5
+}
+
+.nome i {
+    position: absolute;
+    right: 20px; 
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%; 
+}
+
+.local {
+ color:#fff;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.local input{
+    width: 100%;
+    height:100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.local input ::placeholder {
+ color:#c5c5c5
+}
+
+.local i {
+    position: absolute;
+    right: 20px; 
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%; 
+}
+
+.enviar {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    margin-top: -25px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.enviar:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color:#fff;
+    transition: 0.5s;
+
+}
