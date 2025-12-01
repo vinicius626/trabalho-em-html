@@ -1,174 +1,471 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report Recife</title>
-    <link rel="shortcut icon" href="/img/4f033426-0f47-45b4-8123-090945204caa.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+/* ======= RESET ======= */
 
-<body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    <!-- HEADER -->
-    <header class="header">
-        <div class="logo">
-            <img src="/img/4f033426-0f47-45b4-8123-090945204caa.jpg" alt="Report Recife">
-        </div>
+body {
+    background: #ffffff;
+    color: #000000;
+}
 
-     <div class="theme-toggle">
-    <span id="theme-icon">🌙</span>
-      </div>
+/* ======= HEADER ======= */
+.header {
+    width: 100%;
+    height: 70px;
+    background: #1c2d4a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
 
-        <nav class="menu">
-            <a href="#">Home</a>
-            <a href="#">Denúncia</a>
-            <a href="#">Soluções</a>
-            <a href="#">Sobre</a>
-        </nav>
+.logo img {
+    height: 45px;
+    border-radius: 18px;
 
-     
+}
+
+.search-bar{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 500px;
+
+}
 
 
-      <form class="search-bar">
-        <input id="searchInput" type="text" placeholder="pesquisar..."background-color="#e73c3c;">
-        <button type="submit"><img src="https://img.icons8.com/external-outline-juicy-fish/60/external-magnifying-contact-us-outline-outline-juicy-fish.png" width="20"   alt="external-magnifying-contact-us-outline-outline-juicy-fish"/></button>
-        
+
+.search-bar input{
+    padding: 6px 12px;
+    border: 1px solid #e73c3c;
+    background-color: #1c2d4a;
+    border-radius: 20px;
+    outline: none;
+    width: 100px;
+    transition: width 0.3s ease;
+   
+}
+
+.search-bar input:focus {
+    width: 250px;
+}
+
+.search-bar button {
+    border: none;
+    background: #1c2d4a; /* transparente */
+    font-size: 18px;
+    cursor: pointer;
     
-        </form>
+       
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
 
-        <div class="actions">
-    <a href="login.html" class="login-btn">Entrar</a>
-</div>
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.3s;
+    
+}
 
-    </header>
+.menu a:hover {
+    color: #e73c3c;
+}
 
-     <div class="slider">
-        <div class="slides">
-            <img src="/img/interdicao-jordao.avif" alt="Banner 1">
-            <img src="/img/WhatsApp-Image-2022-05-30-at-18.12.11-1.jpeg" alt="Banner 2">
-            <img src="/img/20240721115451493416e.jpeg" alt="Banner 3">
-        </div>
-     </div>
+.actions .login-btn {
+    background: transparent;
+    border: 2px solid #e73c3c;
+    border-radius: 28px;
+    color: #e73c3c;
+    padding: 8px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 50px;
+}
 
-    <!-- Noticia em destaque  -->
-    <section class="news-highlight reveal">
-     <div class="highlight-image">
-      <img src="/img/explosao.avif" alt="Notícia Destaque">
-       </div>
+.actions .login-btn:hover {
+    background: #e73c3c;
+    color: #1F1F1F;
+}
 
-    <div class="highlight-info">
-                    <h3>Vídeo mostra barulho de explosão que deixou dois mortos e destruiu oito casas em Olinda</h3>
-            <p>Uma câmera de segurança de um imóvel no bairro de Ouro Preto, em Olinda...</p>
-            <span>Há 8 horas · Em Pernambuco</span>
-        </div>
-    </section>
+.slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
 
-    <!-- Denúncia -->
-    <section class="denuncia-box">
-      
-        <img src="/img/image0.png" class="megafone" alt="Denuncie">
-        <h2>FAÇA SUA DENÚNCIA A VOCÊ TAMBÉM!</h2>
-        <p>Sua voz tem poder e ela pode transformar Recife!
- Se você presenciou ou foi vítima de alguma irregularidade, não se cale. Faça sua denúncia com segurança e total sigilo através do REPORT RECIFE clicando no botão abaixo! Aqui, sua identidade é protegida, e sua informação pode ser o primeiro passo para um Recife mais justo, transparente e seguro para todos. 
-Juntos, podemos construir uma cidade onde a verdade prevalece e a cidadania é respeitada.</p>
-        <button class="btn-denunciar">CLIQUE AQUI</button>
-      
-    </section>
+.slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
 
-    <!-- New Card -->    
-    <section class="news-grid">
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-        <div class="news-card">
-        <a href="/html/forro.html">
-            <img src="/img/teto-2-.avif" alt="Notícia">
-            <h4>O teto de gesso de uma das UTIs neonatais do Hospital Maternidade Barão de Lucena, no bairro da Iputinga, na Zona Oeste do Recife, caiu na manhã desta segunda-feira (27). Imagens encaminhadas à TV Globo mostram os destroços do forro em meio às incubadoras e uma placa de gesso sobre uma delas, onde havia um bebê dentro (veja vídeo acima).</h4>
-            <span>Há 6 horas · Em Pernambuco</span>
-        </a>
-        </div>
 
-        <div class="news-card">
-          <a href="/html/compesa.html"> 
-          <img src="/img/frame-00-01-23.316.webp" alt="Notícia">
-            <h4>A rotina dos moradores do Grande Recife é marcada pelas obras da Companhia Pernambucana de Saneamento (Compesa). Os buracos em diversas ruas e avenidas praticamente viraram parte do legado da empresa, que muitas vezes não finaliza os serviços e, assim, cria mais um problema para a população</h4>
-            <span>Há 1 dia · Em Pernambuco</span>
-          </a>
-        </div>
+/* ======= NOTÍCIA EM DESTAQUE ======= */
 
-        <div class="news-card">
-          <a href="/html/predio.html">  
-          <img src="/img/Predio Caixão.avif" alt="Notícia">
-            <h4>A administradora Rosângela Costa, 60 anos, estava passando por dificuldades financeiras e na família quando soube por uma amiga de uma oportunidade única para ter uma casa própria. Sem precisar dar entrada ou parcelas intercaladas, comprou um apartamento no Conjunto Beira-Mar, localizado em Paulista, na Região Metropolitana do Recife.</h4>
-            <span>Há 4 horas · Em Pernambuco</span>
-          </a>
-        </div>
+.news-highlight {
+    display: flex;
+    gap: 20px;
+    width: 85%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #F7F7F7;
+    border-radius: 12px;
+}
 
-         <div class="news-card">
-          <a href="/html/moradia.html">
-            <img src="/img/eduardo moura.jpeg" alt="Notícia">
-            <h4>Durante a reunião plenária da Câmara do Recife desta terça-feira (26), o vereador Eduardo Moura (Novo) apontou problemas estruturais e falta de manutenção em diversos habitacionais da cidade. "O prefeito do Recife anunciou mais um habitacional a ser construído. Foi anunciado um investimento de R$ 46,5 milhões, mas eu subo para discutir a qualidade deste investimento, pois eu tenho uma lista com os últimos habitacionais e os problemas que eles vêm apresentando”, disse. O vereador argumentou que pessoas que tiveram o direito à casa própria foram obrigadas a deixar os imóveis por conta da falta de manutenção deles. Ele falou dos conjuntos habitacionais do bairro de São José, no Centro; do Arruda e de Água Fria, Zona Norte; do Cordeiro e da Torre, Zona Oeste; e de Brasília Teimosa, Zona Sul.</h4> 
-            <span>Há 4 horas · Em Pernambuco</span>
-          </a>
-        </div>
+.highlight-info:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: translateY(-4px);
+    
+}
 
+.highlight-image img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.highlight-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlight-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.highlight-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+.highlight-info span {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #777;
+}
+
+/* ======= SEÇÃO DENÚNCIA ======= */
+
+.denuncia-box {
+    background: #1c2d4a;
+    width: 100%;
+    margin: 20px auto;
+    padding: 35px 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    position: relative;
+}
+
+.megafone {
+    width: 85px;
+    position: absolute;
+    top: -35px;
+    left: 5px;
+}
+
+.denuncia-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.denuncia-box p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-denunciar {
+    background: #e73c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .3s;
+    transform: translateY(-4px);
+}
+
+.btn-denunciar a:hover {
+    background: #e73c3c;
+    transform: translateY(-6px);
+}
+
+/* ======= GRID DE NOTÍCIAS ======= */
+
+.news-grid {
+    width: 85%;
+    margin: 0 auto 60px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.news-card {
+    background: #fff;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.news-card:hover {
+    transform: translateY(-4px);
+    background-color: #ff0000;
+}
+
+.news-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+
+.news-card h4 {
+    font-size: 15px;
+    padding: 8px 10px 4px 10px;
+}
+
+.news-card span {
+    font-size: 12px;
+    color: #777;
+    padding: 0 10px;
+}
+
+/* ======= RESPONSIVO ======= */
+
+@media (max-width: 850px) {
+    .news-highlight {
+        flex-direction: column;
+    }
+
+    .highlight-image img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .news-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+
+    .highlight-info h3 {
+        font-size: 16px;
         
-     
-        <div class="news-card">
-          <a href="/html/metro.html">
-          <img src="/img/metro.webp" alt="Notícia">
-            <h4>A Companhia Brasileira de Trens Urbanos (CBTU) apresentou ao Governo Federal um projeto que visa resolver os problemas estruturais do Metrô do Recife. O investimento está orçado em 1,7 bilhões de reais e a medida foi tomada devido aos recentes transtornos na infraestrutura do sistema, que afetaram mais de 180 mil passageiros. </h4> 
-            <span>Há 4 horas · Em Pernambuco</span>
-          </a>
-        </div>
+    }
 
-        <div class="news-card">
-          <a href="/html/escola.html"> 
-          <img src="/img/ESCOLA-HERBERT-DE-SOUZA-Fotos-Filipe-BezerraSimpere_4958-768x1024.jpg" alt="Notícia">
-            <h4>A Escola Municipal de Casa Amarela, na Zona Norte do Recife, denunciou ao Sindicato Municipal dos Profissionais de Ensino da Rede Oficial do Recife (SIMPERE) um problema relacionado com o funcionamento dos aparelhos de ar-condicionado. De acordo com depoimentos de professores e alunos, as aulas acontecem sob condições de calor extremo.
-            “Recife é uma cidade vulnerável às mudanças climáticas, e a precariedade estrutural das escolas agrava ainda mais essa situação. Quando chove, as unidades alagam; quando faz calor, a falta de manutenção dos equipamentos coloca em risco a saúde de alunos e professores. Isso não pode continuar sendo ignorado”, ressalta Anna Davi, coordenadora geral do SIMPERE.</h4> 
-            <span>Há 4 horas · Em Pernambuco</span>
-          </a>
-        </div>
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* AJUSTES FINOS DO LAYOUT */
 
-       </section> 
+.banner {
+    background: #e7d8d8;
+}
 
-    <!-- RODAPÉ -->
-    <footer class="footer">
-      <div class="footer-container">
+.banner-img {
+    display: block;
+}
 
-        <div class="footer-section about">
-          <h2>Report Recife</h2>
-          <p>Plataforma colaborativa para reportar problemas urbanos e ajudar a melhorar nossa cidade.</p>
-        </div>
+/* remover texto do banner */
+.banner h2 {
+    display: none;
+}
 
-        <div class="footer-section links">
-          <h3>Links úteis</h3>
-          <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Denúncias</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </div>
+.news-highlight {
+    margin-top: 20px;
+    background: #ECECEC;
+}
 
-        <div class="footer-section social">
-          <h3>Siga-nos</h3>
-          <div class="social-icons">
-            <a href="#"><img width="30" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="Instagram"></a>
-            <a href="#"><img width="30" src="https://img.icons8.com/ios/50/facebook-new.png" alt="Facebook"></a>
-            <a href="#"><img width="30" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="Twitter"></a>
-          </div>
-        </div>
+/* título da notícia destaque */
+.highlight-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
 
-      </div>
+/* texto da notícia destaque */
+.highlight-info p {
+    font-size: 14px;
+    color: #444;
+}
 
-      <div class="footer-bottom">
-        <p>&copy; 2025 Report Recife. Todos os direitos reservados.</p>
-      </div>
-    </footer>
+/* DENÚNCIA BOX */
+.denuncia-box {
+    background: #1c2d4a;
+    border-radius: 18px;
+    width: 65%;
+    padding: 40px 25px;
 
-    <script src="/js/script.js"></script>
+}
 
+.btn-denunciar {
+    margin-top: 10px;
+}
 
-</body>
-</html>
+/* NOTÍCIAS EM GRID */
+.news-card h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.news-card span {
+    font-size: 11px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #1c2d4a;
+  color: #f1f1f1;
+  width: 100%;
+  position: relative; /* Fica no final da página */
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 20px 0 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  color: #ff5b5b;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff5b5b;
+}
+
+.social-icons a img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  color: #999;
+}
+
+.theme-toggle {
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+/* Header escuro */
+.dark-mode .header {
+    background: #0d1627;
+}
+
+/* Cards */
+.dark-mode .news-card {
+    background: #1c1c1c;
+    color: #e0e0e0;
+}
+
+/* Denúncia box */
+.dark-mode .denuncia-box {
+    background: #0d1627;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: #0d1627;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
